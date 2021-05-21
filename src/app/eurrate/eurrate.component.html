@@ -1,0 +1,5 @@
+<h2>Euro Rates</h2>
+
+<ul>
+  <li *ngFor="let rate of (rates | async)">{{rate.name}}: {{rate.rate}}</li>
+</ul>
